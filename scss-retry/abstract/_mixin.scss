@@ -1,0 +1,36 @@
+// Responsive mixin 
+
+/* Extra small devices (phones, 600px and down) */
+
+@mixin mobile {
+    @media screen and (max-width: $mobile) {
+        @content;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@mixin tablet {
+    @media screen and (min-width: $tablet) {
+        @content;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@mixin laptop {
+    @media screen and (min-width: $laptop) {
+        @content;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@mixin desktop {
+    @media screen and (min-width: $desktop) {
+        @content;
+    }
+}

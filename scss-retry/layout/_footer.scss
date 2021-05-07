@@ -1,0 +1,70 @@
+footer {
+    width: 100%;
+    height: 9.3rem;
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-left-container {
+        margin-left: 10rem;
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+        .footer-logo {
+            height: 2rem;
+            width: 3.75rem;
+            background-image: url(/ressources/img/Home/Combined-Shape2.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    .footer-social {
+        margin-right: 10rem;
+        width: 10%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-social-item {
+            height: 2rem;
+            width: 2rem;
+            background-size: contain;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: scale(1.1) rotate(5deg);
+                transition: .2s;
+            }
+        }
+        .git {
+            background-image: url(/ressources/img/Home/Path.svg);
+        }
+        .twitter {
+            background-image: url(/ressources/img/Home/Path-1.svg);
+        }
+        .linkedin {
+            background-image: url(/ressources/img/Home/Shape.svg);
+        }
+    }
+}
+
+// <footer>
+// <section class="footer-left-container">
+//     <div class="footer-logo"></div>
+//     <ul class="footer-list"></ul>
+//     <li class="footer-items">
+//         <a href="#">Home</a>
+//     </li>
+//     <li class="footer-items">
+//         <a href="#">Portfolio</a>
+//     </li>
+//     <li class="footer-items">
+//         <a href="#">Contact me</a>
+//     </li>
+//     </ul>
+// </section>
+// <section class="footer-social">
+//     <div class="footer-social-item git"></div>
+//     <div class="footer-social-item twitter"></div>
+//     <div class="footer-social-item linkedin"></div>
+// </section>
+// </footer>
