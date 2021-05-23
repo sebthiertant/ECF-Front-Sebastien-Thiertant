@@ -6,29 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/main.css">
-    <title>Minimalist-Porfolio</title>
+    <title>Minimalist-Porfolio-Thiertant</title>
 </head>
 
 <body>
-    <form action="https://formspree.io/f/xqkweqgz" method="POST">
-        <label>
-          Name
-          <input class="input" type="text" name="name" placeholder="Jane Appleseed" required>
-        <p class="required"></p>
-        </label>
-        <label>
-        Email Address
-        <input class="input" type="email" name="mail" placeholder="email@example.com" required>
-        <p class="required"></p>
-        </label>
-        <label>
-        Message
-        <textarea class="input" type="text" maxlength="150" minlength="1" name="message" placeholder="How can I help?" required ></textarea>
-        <p class="required"></p>
-        </label>
-        <button class="button-form" type="submit">Send message</button>
-    </form>
+    <header>
+        <nav>
+            <div class="nav-logo"></div>
+            <ul class="menu-list">
+                <li class="menu-items">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menu-items">
+                    <a href="portofolio.html">Portfolio</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <section class="hero">
+            <div class="hero_container">
+                <div class="hero_figure_container">
+                    <figure>
+                        <img src="ressources/img/Home/Bitmap@2X.png" alt="A computer screen with graphs">
+                    </figure>
+                    <div class="hero_text_container">
+                        <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+                        <button class="button">
+                        <div class="arrow-button-wrapper">
+                            <span class="arrow-button arrow-button-top"></span>
+                            <span class="arrow-button arrow-button-mid"></span>
+                            <span class="arrow-button arrow-button-bot"></span>
+                        </div>
+                        <p>About me</p>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="about_container container">
+        <div class="about_picture">
+            <figure>
+                <img src="ressources/img/Home/about_pic_2x.png" alt="A photo of me">
+            </figure>
+        </div>
+        <div class="about_content">
+            <h2 class="about_title">About Me</h2>
+            <p>I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt
+                to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run
+                or cycling. I’d love you to check out my work.</p>
+            <button class="button-secondary">Go to Portfolio</button>
+        </div>
+    </section>
+    <section class="interested_container container">
+        <h2>Interested in doing a project together?</h2>
+        <span></span>
+        <button class="button-secondary">Contact me</button>
+    </section>
+    <footer>
+        <section class="footer-left-container">
+            <div class="footer-logo"></div>
+            <ul class="footer-list"></ul>
+            <li class="footer-items">
+                <a href="#">Home</a>
+            </li>
+            <li class="footer-items">
+                <a href="#">Portfolio</a>
+            </li>
+            <li class="footer-items">
+                <a href="#">Contact me</a>
+            </li>
+            </ul>
+        </section>
+        <section class="footer-social">
+            <div class="footer-social-item git"></div>
+            <div class="footer-social-item twitter"></div>
+            <div class="footer-social-item linkedin"></div>
+        </section>
+    </footer>
 </body>
+
+
 
 <script src="/js/app.js"></script>
 
