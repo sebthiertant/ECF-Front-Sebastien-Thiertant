@@ -1,0 +1,19 @@
+.manage_header {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 85%;
+    }
+}
+
+.manage_content_container {
+    display: flex;
+    .manage_content {
+        width: 40%;
+    }
+    .manage_content_desc {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

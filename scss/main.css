@@ -582,6 +582,40 @@ textarea:invalid + p::before {
   opacity: .15;
 }
 
+.manage_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manage_header img {
+  width: 85%;
+}
+
+.manage_content_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.manage_content_container .manage_content {
+  width: 40%;
+}
+
+.manage_content_container .manage_content_desc {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 nav {
   width: 100%;
   height: 9.3rem;
