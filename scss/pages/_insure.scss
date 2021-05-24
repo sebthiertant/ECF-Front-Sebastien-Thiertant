@@ -1,0 +1,44 @@
+.insure_header {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 85%;
+    }
+}
+
+.insure_content_container {
+    display: flex;
+    .insure_content {
+        width: 40%;
+        padding: 3rem 5rem;
+        margin-top: 8rem;
+        h2 {
+            margin: 5rem 0 3rem 0;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        button {
+            margin-bottom: 5rem;
+        }
+    }
+    .content {
+        padding: 3rem 5rem 2rem 8rem;
+    }
+    .insure_content_desc {
+        padding: 2rem 5rem 2rem 8rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin: 4rem 0;
+        }
+        span {
+            text-decoration: underline;
+        }
+        img {
+            margin-top: 1rem;
+            width: 100%;
+        }
+    }
+}

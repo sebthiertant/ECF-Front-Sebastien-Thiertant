@@ -43,6 +43,15 @@ body {
     }
 }
 
+p {
+    color: $dark-blue;
+}
+
+.used_tech {
+    color: $cyan;
+    font-weight: bold;
+}
+
 // footer-text 
 .footer-items {
     font-family: $public;
