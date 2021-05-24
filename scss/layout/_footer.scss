@@ -1,22 +1,37 @@
 footer {
     width: 100%;
-    height: 5rem;
+    height: 10vh;
     background-color: $dark-blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: $mobile) {
+        padding: 3rem 0;
+        flex-direction: column;
+        height: max-content;
+    }
     .footer-left-container {
         margin-left: 10rem;
         display: flex;
         width: 40%;
         justify-content: space-around;
         align-items: center;
+        @media (max-width: $laptop) {
+            width: 60%;
+            margin-left: 1rem;
+        }
+        @media (max-width: $mobile) {
+            flex-direction: column;
+        }
         .footer-logo {
             height: 2rem;
             width: 3.75rem;
             background-image: url(/ressources/img/Home/Combined-Shape2.svg);
             background-size: contain;
             background-repeat: no-repeat;
+        }
+        li {
+            padding: .5rem .5rem;
         }
     }
     .footer-social {
@@ -25,6 +40,14 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        @media (max-width: $desktop) {
+            margin-right: 5rem;
+            width: 15%;
+        }
+        @media (max-width: $laptop) {
+            margin-right: 1rem;
+            width: 25%;
+        }
         .footer-social-item {
             height: 2rem;
             width: 2rem;
@@ -33,6 +56,9 @@ footer {
             &:hover {
                 transform: scale(1.1) rotate(5deg);
                 transition: .2s;
+            }
+            @media (max-width: $mobile) {
+                margin: 1rem .5rem;
             }
         }
     }
