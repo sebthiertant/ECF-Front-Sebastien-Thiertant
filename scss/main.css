@@ -657,53 +657,6 @@ textarea:invalid + p::before {
   width: 100%;
 }
 
-.navigation_projects_container {
-  margin-top: 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-top: 1px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
-}
-
-.navigation_projects_container .arrow_wrapper {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
-  min-height: 100%;
-}
-
-.navigation_projects_container .arrow_wrapper p {
-  opacity: .5;
-}
-
-.navigation_projects_container .arrow_wrapper img {
-  margin: 0 1rem;
-  height: 2rem;
-  width: 2rem;
-  opacity: .7;
-  padding: .3rem;
-  cursor: pointer;
-}
-
-.navigation_projects_container .next_wrapper {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  border-left: 1px solid rgba(51, 50, 61, 0.15);
-}
-
 .bookmark_header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,6 +818,53 @@ nav .menu-list {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.navigation_projects_container {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.navigation_projects_container .arrow_wrapper {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  min-height: 100%;
+}
+
+.navigation_projects_container .arrow_wrapper p {
+  opacity: .5;
+}
+
+.navigation_projects_container .arrow_wrapper img {
+  margin: 0 1rem;
+  height: 2rem;
+  width: 2rem;
+  opacity: .7;
+  padding: .3rem;
+  cursor: pointer;
+}
+
+.navigation_projects_container .next_wrapper {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-left: 1px solid rgba(51, 50, 61, 0.15);
 }
 
 footer {
