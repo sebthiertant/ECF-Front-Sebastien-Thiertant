@@ -15,13 +15,13 @@
             <div class="nav-logo"></div>
             <ul class="menu-list">
                 <li class="menu-items">
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li class="menu-items">
                     <a href="portofolio.html">Portfolio</a>
                 </li>
                 <li class="menu-items">
-                    <a href="#">Contact me</a>
+                    <a href="contact.html">Contact me</a>
                 </li>
             </ul>
         </nav>
@@ -35,7 +35,8 @@
                     </figure>
                     <div class="hero_text_container">
                         <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
-                        <button class="button">
+                        <a href="#about">
+                            <button class="button">
                         <div class="arrow-button-wrapper">
                             <span class="arrow-button arrow-button-top"></span>
                             <span class="arrow-button arrow-button-mid"></span>
@@ -43,13 +44,14 @@
                         </div>
                         <p>About me</p>
                     </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
     </header>
 
-    <section class="about_container container">
+    <section id="about" class="about_container container">
         <div class="about_picture">
             <figure>
                 <img src="ressources/img/Home/about_pic_2x.png" alt="A photo of me">
@@ -60,33 +62,41 @@
             <p>I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt
                 to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run
                 or cycling. I’d love you to check out my work.</p>
-            <button class="button-secondary">Go to Portfolio</button>
+            <a href="portofolio.html">
+                <button class="button-secondary">Go to Portfolio</button>
+            </a>
         </div>
     </section>
     <section class="interested_container container">
         <h2>Interested in doing a project together?</h2>
         <span></span>
-        <button class="button-secondary">Contact me</button>
+        <a href="contact.html"> <button class="button-secondary">Contact me</button></a>
     </section>
     <footer>
         <section class="footer-left-container">
             <div class="footer-logo"></div>
             <ul class="footer-list"></ul>
             <li class="footer-items">
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li class="footer-items">
-                <a href="#">Portfolio</a>
+                <a href="portofolio.html">Portfolio</a>
             </li>
             <li class="footer-items">
-                <a href="#">Contact me</a>
+                <a href="contact.html">Contact me</a>
             </li>
             </ul>
         </section>
         <section class="footer-social">
-            <div class="footer-social-item git"></div>
-            <div class="footer-social-item twitter"></div>
-            <div class="footer-social-item linkedin"></div>
+            <a href="https://github.com/sebthiertant" target="_blank">
+                <div class="footer-social-item git"></div>
+            </a>
+            <a href="https://twitter.com/SebThiertant" target="_blank">
+                <div class="footer-social-item twitter"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/s%C3%A9bastien-thiertant-715751bb/" target="_blank">
+                <div class="footer-social-item linkedin"></div>
+            </a>
         </section>
     </footer>
 </body>

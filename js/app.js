@@ -9,15 +9,18 @@
 
 //     }
 
-//     document.querySelector('form').addEventListener('submit', (e) => {
-//             e.preventDefault();
-//         })
-//         if (input_name.validity.valid) {
-//             console.log('good')
-//         }
-//         for (let i of input) {
-//             i.setCustomValidity("Ce champ est requis");
-//             i.reportValidity();
-//         }
+//     //     document.querySelector('form').addEventListener('submit', (e) => {
+//     //             e.preventDefault();
+//     //         })
+//     //         if (input_name.validity.valid) {
+//     //             console.log('good')
+//     //         }
+//     //         for (let i of input) {
+//     //             i.setCustomValidity("Ce champ est requis");
+//     //             i.reportValidity();
+//     //         }
 
 // });
+
+
+// revoir le fait que le required s'affiche sans même avoir rien saisit

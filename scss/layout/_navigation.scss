@@ -19,17 +19,6 @@ nav {
     }
 }
 
-// <nav>
-// <div class="nav-logo"></div>
-// <ul class="menu-list">
-//     <li class="menu-items">
-//         <a href="#">Home</a>
-//     </li>
-//     <li class="menu-items">
-//         <a href="#">Portfolio</a>
-//     </li>
-//     <li class="menu-items">
-//         <a href="#">Contact me</a>
-//     </li>
-// </ul>
-// </nav>
+.active {
+    color: $cyan;
+}

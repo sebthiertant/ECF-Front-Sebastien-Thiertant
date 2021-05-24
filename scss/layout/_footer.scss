@@ -35,16 +35,19 @@ footer {
                 transition: .2s;
             }
         }
-        .git {
-            background-image: url(/ressources/img/Home/Path.svg);
-        }
-        .twitter {
-            background-image: url(/ressources/img/Home/Path-1.svg);
-        }
-        .linkedin {
-            background-image: url(/ressources/img/Home/Shape.svg);
-        }
     }
+}
+
+.git {
+    background-image: url(/ressources/img/Home/Path.svg);
+}
+
+.twitter {
+    background-image: url(/ressources/img/Home/Path-1.svg);
+}
+
+.linkedin {
+    background-image: url(/ressources/img/Home/Shape.svg);
 }
 
 // <footer>
