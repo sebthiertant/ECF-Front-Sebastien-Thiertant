@@ -1,26 +1,42 @@
-// document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
-//     const input = Array.from(document.querySelectorAll('.input'));
-//     const input_name = document.querySelector('.input-name');
-//     const input_mail = document.querySelector('.input-mail');
-//     const input_message = document.querySelector('.input-message');
-//     for (let i of input) {
-//         i.setAttribute('required', true);
-
-//     }
-
-//     //     document.querySelector('form').addEventListener('submit', (e) => {
-//     //             e.preventDefault();
-//     //         })
-//     //         if (input_name.validity.valid) {
-//     //             console.log('good')
-//     //         }
-//     //         for (let i of input) {
-//     //             i.setCustomValidity("Ce champ est requis");
-//     //             i.reportValidity();
-//     //         }
-
-// });
+    const form = document.querySelector('.form')
+    const button = document.querySelector('.button-form')
 
 
-// revoir le fait que le required s'affiche sans même avoir rien saisit
+    // function name_validity() {
+    //     const input_name = document.querySelector('.input_name')
+
+    //     console.log(input_name.checkValidity())
+    //     if (input_name.checkValidity() === true) {
+    //         console.log("ok")
+    //         input_name.setCustomValidity("")
+    //     } else {
+    //         console.log("erreur")
+    //         input_name.setCustomValidity("Ce champ est requis")
+    //     }
+    // }
+
+
+
+    // document.querySelector('.input_name').setCustomValidity("Ce champ est requis")
+
+    // if (document.querySelector('.input_name').value != "") {
+    //     document.querySelector('.input_name').setCustomValidity("")
+    // }
+
+    // button.addEventListener('click', name_validity)
+
+    // navbar 
+
+    // const toggleMenu = document.querySelector('.main-nav__toggler');
+    // const menu = document.querySelector('.main-nav-list');
+
+    // toggleMenu.addEventListener('click', function() {
+    //     const open = JSON.parse(toggleMenu.getAttribute('aria-expanded'));
+    //     toggleMenu.setAttribute('aria-expanded', !open);
+    //     menu.hidden = !menu.hidden;
+    // })
+
+
+});

@@ -43,20 +43,20 @@
     <section class="contact_me_container container">
         <h2>Contact Me</h2>
         <div class="contact_form_wrapper">
-            <form action="https://formspree.io/f/xqkweqgz" method="POST">
-                <label>
+            <form class="form" action="https://formspree.io/f/xqkweqgz" method="POST">
+                <label class="label_name">
                   Name
-                  <input class="input" type="text" name="name" placeholder="Jane Appleseed" required>
+                  <input class="input input_name" type="text" name="name" placeholder="Jane Appleseed" required=>
                 <p class="required"></p>
                 </label>
                 <label>
                 Email Address
-                <input class="input" type="email" name="mail" placeholder="email@example.com" required>
+                <input class="input input_mail" type="email" name="mail" placeholder="email@example.com" required="false">
                 <p class="required"></p>
                 </label>
                 <label>
                 Message
-                <textarea class="input textarea" type="text" maxlength="150" minlength="1" name="message" placeholder="How can I help?" required ></textarea>
+                <textarea class="input textarea input-message" type="text" maxlength="150" minlength="1" name="message" placeholder="How can I help?" required ></textarea>
                 <p class="required"></p>
                 </label>
                 <button class="button-form" type="submit">Send message</button>

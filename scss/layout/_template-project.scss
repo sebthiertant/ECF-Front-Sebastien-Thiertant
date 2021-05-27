@@ -19,6 +19,9 @@
                     width: inherit;
                     padding: 1rem;
                 }
+                .arrow_wrapper_text {
+                    @media (max-width: $mobile) {}
+                }
                 p {
                     opacity: .5;
                 }
@@ -36,11 +39,13 @@
                     }
                 }
             }
+            .previous_wrapper {
+                @media (max-width: 400px) {
+                    margin-left: -2rem;
+                }
+            }
             .next_wrapper {
                 justify-content: flex-end;
                 border-left: 1px solid rgba(51, 50, 61, .15);
-                @media (max-width: 350px) {
-                    margin-left: -2rem;
-                }
             }
         }

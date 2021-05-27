@@ -6,6 +6,9 @@
     border-top: 1px solid rgba(51, 50, 61, .15);
     border-bottom: 1px solid rgba(51, 50, 61, .15);
     padding: 3rem 0rem;
+    @media (max-width: $tablet) {
+        flex-direction: column;
+    }
     h2 {
         padding: 2rem 0rem;
     }
@@ -13,14 +16,28 @@
         display: flex;
         flex-direction: column;
         width: 50%;
+        @media (max-width: $tablet) {
+            width: inherit;
+        }
         p {
             padding: 2rem 1rem;
+            @media (max-width: $tablet) {
+                padding: 2rem 0;
+            }
         }
         .social_wrapper {
-            width: 25%;
+            width: 40%;
             display: flex;
             justify-content: space-evenly;
             padding: 1rem .5rem;
+            @media (max-width: $tablet) {
+                width: 50%;
+                justify-content: space-between;
+            }
+            @media (max-width: $mobile) {
+                width: 70%;
+                justify-content: space-between;
+            }
             a {
                 height: 2rem;
                 width: 2rem;
@@ -42,17 +59,28 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 8rem;
+    @media (max-width: $tablet) {
+        flex-direction: column;
+    }
     .contact_form_wrapper {
         width: 50%;
         display: flex;
         justify-content: center;
+        @media (max-width: $tablet) {
+            margin-top: 3rem;
+            width: inherit;
+            justify-content: start;
+        }
         form {
             display: flex;
             flex-direction: column;
             label {
-                width: 30vw;
+                width: 35vw;
                 display: flex;
                 flex-direction: column;
+                @media (max-width: $tablet) {
+                    width: 70vw;
+                }
             }
             .input {
                 height: 8vh;

@@ -21,19 +21,28 @@ input:valid {
     border: 1px solid $cyan;
 }
 
-[required] {
-    border: 1px solid $red;
-}
-
 .required {
     color: $red;
     font-size: 10px;
     visibility: visible;
 }
 
-input:invalid+p::before,
-textarea:invalid+p::before {
+input:invalid:focus,
+textarea:invalid:focus {
+    border: 1px solid $red;
+}
+
+// here for don't change the label's gap between invalid and valid 
+input+p::before,
+textarea+p::before {
+    content: 'This field is valid';
+    visibility: hidden;
+}
+
+input:invalid:focus+p::before,
+textarea:invalid:focus+p::before {
     content: 'This field is required';
+    visibility: visible;
     color: red;
 }
 
