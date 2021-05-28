@@ -13,19 +13,23 @@
     <header>
         <nav>
             <div class="nav-logo"></div>
+            <button class="main-nav__toggler" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                </button>
             <ul class="menu-list">
                 <li class="menu-items">
-                    <a href="index.html" class="active" rel="noreferrer" rel="noopener">Home</a>
+                    <a rel="noreferrer" rel="noopener" href="index.html">Home</a>
                 </li>
                 <li class="menu-items">
-                    <a href="portofolio.html" rel="noreferrer" rel="noopener">Portfolio</a>
+                    <a rel="noreferrer" rel="noopener" href="portofolio.html">Portfolio</a>
                 </li>
                 <li class="menu-items">
-                    <a href="contact.html" rel="noreferrer" rel="noopener">Contact me</a>
+                    <a rel="noreferrer" rel="noopener" href="contact.html" class="active">Contact me</a>
                 </li>
             </ul>
         </nav>
-
 
         <section class="hero">
             <div class="hero_container">
@@ -55,7 +59,6 @@
         <div class="about_picture">
             <figure>
                 <img srcset="ressources/img/Home/about_pic.png 1x, ressources/img/Home/about_pic_crop.png 1.5x ,ressources/img/Home/about_pic_2x.png 2x" src="ressources/img/Home/about_pic_2x.png" alt="A photo of me" loading="lazy">
-                <!-- <img src="ressources/img/Home/about_pic_2x.png" alt="A photo of me"> -->
             </figure>
         </div>
         <div class="about_content">
@@ -100,10 +103,7 @@
             </a>
         </section>
     </footer>
+    <script src="/js/app.js"></script>
 </body>
-
-
-
-<script src="/js/app.js"></script>
 
 </html>

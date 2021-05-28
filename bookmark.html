@@ -13,20 +13,25 @@
     <header>
         <nav>
             <div class="nav-logo"></div>
+            <button class="main-nav__toggler" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                </button>
             <ul class="menu-list">
                 <li class="menu-items">
-                    <a href="index.html">Home</a>
+                    <a rel="noreferrer" rel="noopener" href="index.html">Home</a>
                 </li>
                 <li class="menu-items">
-                    <a href="portofolio.html" class="active">Portfolio</a>
+                    <a rel="noreferrer" rel="noopener" href="portofolio.html">Portfolio</a>
                 </li>
                 <li class="menu-items">
-                    <a href="contact.html">Contact me</a>
+                    <a rel="noreferrer" rel="noopener" href="contact.html" class="active">Contact me</a>
                 </li>
             </ul>
         </nav>
         <figure class="bookmark_header container">
-            <img src="ressources/img/Portfolio-details/02/port1_2x.png" alt="A picture of bookmark website">
+            <img srcset="ressources/img/Portfolio-details/02/port1.png 1x, ressources/img/Portfolio-details/02/port1_2x.png 2x" src="ressources/img/Portfolio-details/02/port1_2x.png" alt="A picture of bookmark website" loading="lazy">
         </figure>
     </header>
 
@@ -37,7 +42,7 @@
             <p>This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.</p>
             <p class="used_tech">Interaction Design / Front End Development</p>
             <p class="used_tech">HTML / CSS / JS</p>
-            <button class="button-secondary"><a href="bookmark.html">Visit website</a></button>
+            <button class="button-secondary"><a rel="noreferrer" rel="noopener"href="bookmark.html">Visit website</a></button>
         </div>
         <div class="bookmark_content_desc">
             <div>
@@ -47,15 +52,15 @@
             </div>
             <div>
                 <h3>Static Previews</h3>
-                <img src="/ressources/img/Portfolio-details/02/Bitmap@2x.png" alt="Another serie of bookmark website's picture">
-                <img src="/ressources/img/Portfolio-details/02/Bitmap_full@2x.png" alt="Another serie of bookmark website's picture">
+                <img srcset="ressources/img/Portfolio-details/02/Bitmap.png 1x, ressources/img/Portfolio-details/02/Bitmap@2x.png 2x" src="ressources/img/Portfolio-details/02/Bitmap@2x.png" alt="Another serie of bookmark website's picture" loading="lazy">
+                <img srcset="ressources/img/Portfolio-details/02/Bitmap_full.png 1x, ressources/img/Portfolio-details/02/Bitmap_full@2x.png 2x" src="ressources/img/Portfolio-details/02/Bitmap_full@2x.png" alt="Another serie of bookmark website's picture" loading="lazy">
             </div>
         </div>
     </section>
 
     <section class="navigation_projects_container container">
         <div class="previous_wrapper arrow_wrapper">
-            <a href="manage.html"><img src="ressources/img/Icons/chevron-left-solid.svg" alt="left arrow"></a>
+            <a rel="noreferrer" rel="noopener" href="manage.html"><img src="ressources/img/Icons/chevron-left-solid.svg" alt="left arrow"></a>
             <div class="arrow_wrapper_text">
                 <h3>Manage</h3>
                 <p>Previous Project</p>
@@ -66,44 +71,42 @@
                 <h3>Insure</h3>
                 <p>Next Project</p>
             </div>
-            <a href="insure.html"><img src="ressources/img/Icons/chevron-right-solid.svg" alt="right arrow"></a>
+            <a rel="noreferrer" rel="noopener" href="insure.html"><img src="ressources/img/Icons/chevron-right-solid.svg" alt="right arrow"></a>
         </div>
     </section>
     <section class="interested_container container">
         <h2>Interested in doing a project together?</h2>
         <span></span>
-        <a href="contact.html"> <button class="button-secondary">Contact me</button></a>
+        <a rel="noreferrer" rel="noopener" href="contact.html"> <button class="button-secondary">Contact me</button></a>
     </section>
     <footer>
         <section class="footer-left-container">
             <div class="footer-logo"></div>
             <ul class="footer-list"></ul>
             <li class="footer-items">
-                <a href="index.html">Home</a>
+                <a rel="noreferrer" rel="noopener" href="index.html">Home</a>
             </li>
             <li class="footer-items">
-                <a href="portofolio.html">Portfolio</a>
+                <a rel="noreferrer" rel="noopener" href="portofolio.html">Portfolio</a>
             </li>
             <li class="footer-items">
-                <a href="contact.html">Contact me</a>
+                <a rel="noreferrer" rel="noopener" href="contact.html">Contact me</a>
             </li>
             </ul>
         </section>
         <section class="footer-social">
-            <a href="https://github.com/sebthiertant" target="_blank">
+            <a rel="noreferrer" rel="noopener" href="https://github.com/sebthiertant" target="_blank">
                 <div class="footer-social-item git"></div>
             </a>
-            <a href="https://twitter.com/SebThiertant" target="_blank">
+            <a rel="noreferrer" rel="noopener" href="https://twitter.com/SebThiertant" target="_blank">
                 <div class="footer-social-item twitter"></div>
             </a>
-            <a href="https://www.linkedin.com/in/s%C3%A9bastien-thiertant-715751bb/" target="_blank">
+            <a rel="noreferrer" rel="noopener" href="https://www.linkedin.com/in/s%C3%A9bastien-thiertant-715751bb/" target="_blank">
                 <div class="footer-social-item linkedin"></div>
             </a>
         </section>
     </footer>
-
-
-
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

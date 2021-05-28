@@ -2,16 +2,30 @@
     display: flex;
     justify-content: center;
     img {
-        width: 85%;
+        max-width: 85%;
+        @media (max-width: $mobile) {
+            max-width: 80vw;
+        }
     }
 }
 
 .insure_content_container {
     display: flex;
+    @media (max-width: $mobile) {
+        flex-direction: column;
+        align-items: center;
+    }
     .insure_content {
         width: 40%;
         padding: 3rem 5rem;
         margin-top: 8rem;
+        @media (max-width: $laptop) {
+            margin-top: 0;
+            padding: 0!important;
+        }
+        @media (max-width: $mobile) {
+            width: inherit;
+        }
         h2 {
             margin: 5rem 0 3rem 0;
         }
@@ -30,15 +44,27 @@
         width: 50%;
         display: flex;
         flex-direction: column;
+        @media (max-width: $laptop) {
+            margin-top: 0;
+            margin-left: 2rem;
+            padding: 0!important;
+        }
+        @media (max-width: $mobile) {
+            width: inherit;
+            align-items: left;
+        }
         h3 {
             margin: 4rem 0;
+            @media (max-width: $mobile) {
+                text-align: left;
+            }
         }
         span {
             text-decoration: underline;
         }
         img {
             margin-top: 1rem;
-            width: 100%;
+            max-width: 100%;
         }
     }
 }
