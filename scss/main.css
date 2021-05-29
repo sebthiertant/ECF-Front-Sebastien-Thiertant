@@ -1651,12 +1651,6 @@ nav .menu-list {
   }
 }
 
-@media (max-width: 400px) {
-  .navigation_projects_container .previous_wrapper {
-    margin-left: 2rem;
-  }
-}
-
 .navigation_projects_container .next_wrapper {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
