@@ -7,6 +7,7 @@
             border-top: 1px solid rgba(51, 50, 61, .15);
             border-bottom: 1px solid rgba(51, 50, 61, .15);
             @media (max-width: $mobile) {
+                justify-content: center;
                 width: inherit;
             }
             .arrow_wrapper {
@@ -18,9 +19,7 @@
                 @media (max-width: $mobile) {
                     width: inherit;
                     padding: 1rem;
-                }
-                .arrow_wrapper_text {
-                    @media (max-width: $mobile) {}
+                    align-items: flex-start;
                 }
                 p {
                     opacity: .5;
@@ -41,7 +40,7 @@
             }
             .previous_wrapper {
                 @media (max-width: 400px) {
-                    margin-left: -2rem;
+                    margin-left: 2rem;
                 }
             }
             .next_wrapper {
